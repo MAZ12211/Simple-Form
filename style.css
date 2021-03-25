@@ -1,0 +1,75 @@
+/*CONTENTS
+ (WIP)
+*/
+
+body {
+    background-color: rgb(71, 180, 71);
+    text-align: center;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: medium;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 300px;
+    text-decoration: underline;
+    color: gray;
+
+    position: relative;
+    top: 230px;
+    z-index: 1;
+    
+}
+
+.rectangle {
+    height: 500px;
+    width: 420px;
+    background-color: rgb(252, 251, 251);
+    margin: auto;
+    position: relative;
+    top: 150px;
+    box-shadow: black 0.1px 0.5px 10px;
+    z-index: 0;
+  }
+
+  #name, #phonenumber, #email, #web, #submit, .sign {
+    position: relative;
+      z-index: 2;
+      padding: 10px;
+  }
+
+  .sign {
+    right: 20px;
+  }
+
+  #name {
+    bottom: 260px;
+  }
+
+  #phonenumber {
+    bottom: 165px;
+  }
+
+  #email {
+    bottom: 300px;
+  }
+
+  #web {
+    bottom: 210px;
+    left: 102px;
+  }
+
+  #submit {
+    background-color: greenyellow;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 32px;
+    bottom: 115px;
+    right: 150px;
+    width: 200px;
+  }
+
+  #submit:hover {
+    background-color: green;
+  }
